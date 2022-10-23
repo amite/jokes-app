@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 export default function NewJokeRoute() {
   return (
     <div>
@@ -17,7 +19,7 @@ export default function NewJokeRoute() {
           <button type="submit" className="button">
             Add
           </button>{" "}
-          <a href="/jokes">go back</a>
+          <Link to="/jokes">cancel</Link>
         </div>
       </form>
     </div>
